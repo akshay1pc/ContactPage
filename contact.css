@@ -1,0 +1,108 @@
+
+.container {
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    flex-direction: row;
+    margin-top: 40px;
+    height: 80vw;
+    width: 90vw;
+        
+}
+
+
+
+    body {
+        flex-direction: column;
+        font-family: "Fredoka"
+        , sans-serif;
+        font-weight: lighter;
+        color: #671991;
+        background-color: #e0f7f7;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+  
+    .box {
+        background-color: rgb(250, 251, 251);
+        border: 1px solid #ccc;
+        padding: 20px;
+        width: 200px;
+        text-align: center;
+        box-sizing: border-box;
+    color: blueviolet;
+        text-align: center;
+        font-family: "Fredoka"
+
+}
+
+.info-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.icon {
+    font-size: 30px;
+    color: purple;
+    margin-right: 15px;
+}
+
+.info-item p {
+    margin: 0;
+    font-size: 14px;
+}
+
+/* Right section with the form */
+.contact-form {
+    padding: 30px;
+    width: 65%;
+}
+
+.contact-form h2 {
+    color: purple;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.contact-form p {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+/* Form inputs and button */
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f4f4ff;
+    font-size: 14px;
+}
+
+form textarea {
+    height: 100px;
+    resize: none;
+}
+
+button {
+    background-color: purple;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkpurple;
+}
